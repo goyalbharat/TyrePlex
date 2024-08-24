@@ -26,7 +26,8 @@
         <!-- Navbar Haeding -->
         <img
           width="92"
-          height="22"
+          height="28"
+          class="m-2"
           alt="TyrePlx"
           src="https://cdn.tyreplex.net/themes/moonlight/images/TP-logo-mbl.png?tr=w-150,q-77&v=512"
         />
@@ -40,29 +41,26 @@
           <li class="nav-item mx-2">More</li>
         </ul>
         <!-- NavBar Login Icons and Details   -->
-        <div class="d-flex align-items-center">
+        <div class="d-flex align-items-center mx-3">
           <i class="fa-regular fa-user mx-2"></i>
           <span>Login</span>
         </div>
       </header>
 
       <!-- Shop Details And Customer Reviews -->
-      <div class="bg-white m-3 p-3 border shadow rounded">
-        <div class="row">
+      <div class="bg-white p-3 border shadow mt-3 rounded">
+        <div class="row mt-2 tyre_info_shop_details">
           <div class="col-md-5">
             <!-- Store Name and verification -->
-            <div class="d-flex flex-row align-items-center">
+            <div class="d-flex tyre_info_shop_name">
               <h5>SHREE HEMKUNT TYRES AND SERVICES</h5>
-              <div class="mx-2 d-flex align-items-center">
+              <div class="mx-2 d-flex align-items-center tyre_info_verify">
                 <i class="mx-1 fa-regular fa-circle-check text-success"></i>
                 <span class="text-success">Verified</span>
               </div>
             </div>
             <!-- Store Reviews and Rating -->
-            <div
-              class="d-flex my-1 align-items-center"
-              style="font-size: small"
-            >
+            <div class="d-flex my-1 align-items-center tyre_info_detail">
               <span class="text-white px-1 rounded shop_info_rating">4.9</span>
               <div class="mx-2">
                 <i class="fa-solid fa-star text-warning"></i>
@@ -80,18 +78,18 @@
             </div>
             <!-- Stpre Address and Available time and Days -->
             <div class="d-flex flex-column my-3">
-              <div class="row" style="font-size: small">
-                <div class="col-sm-1 text-center">
+              <div class="row tyre_info_detail">
+                <div class="col-1 text-center">
                   <i class="fa-solid fa-location-dot"></i>
                 </div>
-                <div class="col-sm-11">
+                <div class="col-11">
                   PLOT NUMBER-09 GROUND FLOOR CISF CAMPUS ROAD, AHINSA KHAND-02
                   INDIRAPURAM, Ghaziabad, Uttar Pradesh, 201014
                 </div>
-                <div class="col-sm-1 text-center">
+                <div class="col-1 text-center">
                   <i class="fa-regular fa-clock"></i>
                 </div>
-                <div class="col-sm-11 text-muted">
+                <div class="col-11 text-muted">
                   Open - Monday to Sunday - 10:00AM to 8:00PM
                 </div>
               </div>
@@ -105,7 +103,7 @@
             </div>
           </div>
 
-          <div class="col-md-7 d-flex p-3 user_reviews">
+          <div class="col-md-7 d-flex user_reviews">
             <div class="col-md-5 m-1">
               <img
                 src="https://lh3.googleusercontent.com/places/AAcXr8o52JCZ4eDqDhBAQRIDHcYnN1kNMCKBI27KOEuPvQk0C546Zftc9kpHLdW6kmlnbf1gGd7fSGfpctnLspNCfEpye7Rrmwrp094=s1600-w300"
@@ -135,7 +133,7 @@
           <div class="mb-1">2228 Google Reviews</div>
           <div class="d-flex user_reviews">
             <!-- User feedback -->
-            <div class="col-4 user_reviews_info">
+            <div class="col-md-4 col-10 user_reviews_info">
               <div class="border rounded py-3">
                 <div class="d-flex align-items-center p-2">
                   <img
@@ -153,7 +151,7 @@
               </div>
             </div>
 
-            <div class="col-4 user_reviews_info">
+            <div class="col-md-4 col-10 user_reviews_info">
               <div class="border rounded py-3">
                 <div class="d-flex align-items-center p-2">
                   <img
@@ -170,7 +168,7 @@
               </div>
             </div>
 
-            <div class="col-4 user_reviews_info">
+            <div class="col-md-4 col-10 user_reviews_info">
               <div class="border rounded py-3">
                 <div class="d-flex align-items-center p-2">
                   <img
@@ -187,7 +185,7 @@
               </div>
             </div>
 
-            <div class="col-4 user_reviews_info">
+            <div class="col-md-4 col-10 user_reviews_info">
               <div class="border rounded py-3">
                 <div class="d-flex align-items-center p-2">
                   <img
@@ -205,7 +203,7 @@
               </div>
             </div>
 
-            <div class="col-4 user_reviews_info">
+            <div class="col-md-4 col-10 user_reviews_info">
               <div class="border rounded py-3">
                 <div class="d-flex align-items-center p-2">
                   <img
@@ -227,7 +225,7 @@
       </div>
 
       <!-- List of Deals Company -->
-      <div class="bg-white m-3 p-3 border shadow p-3 mb-5 rounded">
+      <div class="bg-white p-3 border shadow p-3 mt-3 rounded">
         <!-- Deals In Heading  -->
         <div class="m-2">
           <span class="fw-bold"> Deals In</span>
@@ -237,7 +235,7 @@
         <div class="d-flex user_reviews">
           <!-- Company Information Card -->
           <div
-            class="col-2 p-3 m-2 text-center border shadow p-3 mb-5 bg-white rounded deals_in_company"
+            class="col-md-2 col-4 p-3 m-2 text-center border shadow p-3 mb-4 bg-white rounded deals_in_company"
           >
             <!-- Company Logo -->
             <div class="deals_in_img">
@@ -252,7 +250,7 @@
 
           <!-- Company Information Card -->
           <div
-            class="col-2 p-3 m-2 text-center border shadow p-3 mb-5 bg-white rounded deals_in_company"
+            class="col-md-2 col-4 p-3 m-2 text-center border shadow p-3 mb-4 bg-white rounded deals_in_company"
           >
             <!-- Company Logo -->
             <div class="deals_in_img">
@@ -267,7 +265,7 @@
 
           <!-- Company Information Card -->
           <div
-            class="col-2 p-3 m-2 text-center border shadow p-3 mb-5 bg-white rounded deals_in_company"
+            class="col-md-2 col-4 p-3 m-2 text-center border shadow p-3 mb-4 bg-white rounded deals_in_company"
           >
             <!-- Company Logo -->
             <div class="deals_in_img">
@@ -282,7 +280,7 @@
 
           <!-- Company Information Card -->
           <div
-            class="col-2 p-3 m-2 text-center border shadow p-3 mb-5 bg-white rounded deals_in_company"
+            class="col-md-2 col-4 p-3 m-2 text-center border shadow p-3 mb-4 bg-white rounded deals_in_company"
           >
             <!-- Company Logo -->
             <div class="deals_in_img">
@@ -297,7 +295,7 @@
 
           <!-- Company Information Card -->
           <div
-            class="col-2 p-3 m-2 text-center border shadow p-3 mb-5 bg-white rounded deals_in_company"
+            class="col-md-2 col-4 p-3 m-2 text-center border shadow p-3 mb-4 bg-white rounded deals_in_company"
           >
             <!-- Company Logo -->
             <div class="deals_in_img">
@@ -312,7 +310,7 @@
 
           <!-- Company Information Card -->
           <div
-            class="col-2 p-3 m-2 text-center border shadow p-3 mb-5 bg-white rounded deals_in_company"
+            class="col-md-2 col-4 p-3 m-2 text-center border shadow p-3 mb-4 bg-white rounded deals_in_company"
           >
             <!-- Company Logo -->
             <div class="deals_in_img">
@@ -327,7 +325,7 @@
 
           <!-- Company Information Card -->
           <div
-            class="col-2 p-3 m-2 text-center border shadow p-3 mb-5 bg-white rounded deals_in_company"
+            class="col-md-2 col-4 p-3 m-2 text-center border shadow p-3 mb-4 bg-white rounded deals_in_company"
           >
             <!-- Company Logo -->
             <div class="deals_in_img">
@@ -341,7 +339,7 @@
           </div>
           <!-- Company Information Card -->
           <div
-            class="col-2 p-3 m-2 text-center border shadow p-3 mb-5 bg-white rounded deals_in_company"
+            class="col-md-2 col-4 p-3 m-2 text-center border shadow p-3 mb-4 bg-white rounded deals_in_company"
           >
             <!-- Company Logo -->
             <div class="deals_in_img">
@@ -357,7 +355,7 @@
       </div>
 
       <!-- Details of Service Provided by Dealer -->
-      <div class="bg-white m-3 p-3 border shadow p-3 mb-5 rounded">
+      <div class="bg-white p-3 border shadow p-3 mt-3 rounded">
         <div class="m-2">
           <span class="fw-bold"> Service Offered by this Dealer</span>
         </div>
@@ -366,7 +364,7 @@
         <div class="d-flex user_reviews">
           <!--Provided Service Information  -->
           <div
-            class="col-3 p-3 m-2 text-center border shadow p-3 mb-5 bg-white rounded service_details"
+            class="col-md-3 col-6 p-3 m-2 text-center border shadow p-3 mb-4 bg-white rounded service_details"
           >
             <div class="deals_in_img">
               <img
@@ -380,7 +378,7 @@
 
           <!-- Provided Service Information  -->
           <div
-            class="col-3 p-3 m-2 text-center border shadow p-3 mb-5 bg-white rounded service_details"
+            class="col-md-3 col-6 p-3 m-2 text-center border shadow p-3 mb-4 bg-white rounded service_details"
           >
             <div class="deals_in_img">
               <img
@@ -394,22 +392,91 @@
         </div>
       </div>
 
-      <!--  Tyres Information -->
-      <div class="row m-3">
-        <div class="col-md-3">
-          <div class="row bg-white p-3 border rounded">
-            <div class="col-md-6">
-              <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu-_Ti28v7DEQIQ87nwjmRXxgSnWOND78oGg&s"
-              />
-              <span>AMAZER 4G LIFE</span>
-              <span>145/80 R12</span>
+      <!-- Search and Filter Tyre information -->
+      <div class="p-3">
+        <div class="fw-bold">Tyres sold by this Dealer</div>
+        <div class="row justify-content-end">
+          <div class="col-md-4 d-flex">
+            <div class="col-md-4 mx-2 text-end">
+              <button
+                type="button"
+                class="btn btn-outline-dark px-3 bg-white dropdown-toggle"
+                data-bs-toggle="dropdown"
+              >
+                Filter By
+              </button>
             </div>
-            <div class="col-md-6 d-flex">
-              <div>
-                <span>5 Years Warranty</span>
+            <div class="col-md-4 mx-2 text-end">
+              <button
+                type="button"
+                class="btn px-3 bg-white btn-outline-dark dropdown-toggle"
+                data-bs-toggle="dropdown"
+              >
+                Filter By
+              </button>
+            </div>
+            <div class="col-md-4 text-end">
+              <a>
+                <button type="button" class="btn btn dropdown-toggle">
+                  Advanced
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--  Tyres Information -->
+      <div class="row">
+        <div class="col-md-3 col-sm-6">
+          <div class="row m-2 bg-white border rounded tyre_info">
+            <div class="col-6">
+              <div class="col-md-6">
+                <span>
+                  <img
+                    class="img-fluid"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu-_Ti28v7DEQIQ87nwjmRXxgSnWOND78oGg&s"
+                  />
+                </span>
               </div>
+
               <div>
+                <p>AMAZER 4G LIFE</p>
+              </div>
+
+              <div class="text-muted my-2 tyre_info_detail">
+                <span>145/80 R12</span>
+              </div>
+
+              <div class="my-2">
+                <span class="text-white px-1 py-1 rounded shop_info_rating">
+                  <i class="fa-solid fa-star text-warning text-white"></i>
+                  4</span
+                >
+                <span class="text-muted mx-2 tyre_info_detail"
+                  >320 Reviews</span
+                >
+              </div>
+
+              <div class="d-flex align-items-center">
+                <i class="fa-solid fa-indian-rupee-sign"></i>
+                <span class="mx-2">3,135</span>
+              </div>
+
+              <div class="text-success my-1 tyre_info_detail">
+                <span>offer Available</span>
+              </div>
+              <div class="my-2 tyre_info_detail">
+                <span>Tube Type</span>
+              </div>
+            </div>
+
+            <div class="col-6 px-0 d-flex flex-column justify-content-between">
+              <div class="mark d-flex align-items-center">
+                <i class="mx-1 fa-regular fa-circle-check text-success"></i>
+                <span class="tyre_info_detail">5 Years Warranty</span>
+              </div>
+
+              <div class="tyre_info_img">
                 <img
                   src="https://cdn.tyreplex.net/uploads/images/tyre_model/original/apollo/amazer-4g-life/img_main.png?v=2385909&tr=w-178,q-78,q-60"
                 />
@@ -418,64 +485,466 @@
           </div>
         </div>
 
-        <div class="col-md-3">
-          <div class="bg-white p-3 border rounded"></div>
+        <div class="col-md-3 col-sm-6">
+          <div class="row m-2 bg-white border tyre_info rounded">
+            <div class="col-6">
+              <div class="col-md-6">
+                <span>
+                  <img
+                    class="img-fluid"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu-_Ti28v7DEQIQ87nwjmRXxgSnWOND78oGg&s"
+                  />
+                </span>
+              </div>
+
+              <div>
+                <p>AMAZER 4G LIFE</p>
+              </div>
+
+              <div class="text-muted my-2 tyre_info_detail">
+                <span>145/80 R12</span>
+              </div>
+
+              <div class="my-2">
+                <span class="text-white px-1 py-1 rounded shop_info_rating">
+                  <i class="fa-solid fa-star text-warning text-white"></i>
+                  4</span
+                >
+                <span class="text-muted mx-2 tyre_info_detail"
+                  >320 Reviews</span
+                >
+              </div>
+
+              <div class="d-flex align-items-center">
+                <i class="fa-solid fa-indian-rupee-sign"></i>
+                <span class="mx-2">3,135</span>
+              </div>
+
+              <div class="text-success my-1 tyre_info_detail">
+                <span>offer Available</span>
+              </div>
+              <div class="my-2 tyre_info_detail">
+                <span>Tube Type</span>
+              </div>
+            </div>
+
+            <div class="col-6 px-0 d-flex flex-column justify-content-between">
+              <div class="mark d-flex align-items-center">
+                <i class="mx-1 fa-regular fa-circle-check text-success"></i>
+                <span class="tyre_info_detail">5 Years Warranty</span>
+              </div>
+
+              <div class="tyre_info_img">
+                <img
+                  src="https://cdn.tyreplex.net/uploads/images/tyre_model/original/apollo/amazer-4g-life/img_main.png?v=2385909&tr=w-178,q-78,q-60"
+                />
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="col-md-3">
-          <div class="bg-white p-3 border rounded"></div>
+        <div class="col-md-3 col-sm-6">
+          <div class="row m-2 tyre_info bg-white border rounded">
+            <div class="col-6">
+              <div class="col-md-6">
+                <span>
+                  <img
+                    class="img-fluid"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu-_Ti28v7DEQIQ87nwjmRXxgSnWOND78oGg&s"
+                  />
+                </span>
+              </div>
+
+              <div>
+                <p>AMAZER 4G LIFE</p>
+              </div>
+
+              <div class="text-muted my-2 tyre_info_detail">
+                <span>145/80 R12</span>
+              </div>
+
+              <div class="my-2">
+                <span class="text-white px-1 py-1 rounded shop_info_rating">
+                  <i class="fa-solid fa-star text-warning text-white"></i>
+                  4</span
+                >
+                <span class="text-muted mx-2 tyre_info_detail"
+                  >320 Reviews</span
+                >
+              </div>
+
+              <div class="d-flex align-items-center">
+                <i class="fa-solid fa-indian-rupee-sign"></i>
+                <span class="mx-2">3,135</span>
+              </div>
+
+              <div class="text-success my-1 tyre_info_detail">
+                <span>offer Available</span>
+              </div>
+              <div class="my-2 tyre_info_detail">
+                <span>Tube Type</span>
+              </div>
+            </div>
+
+            <div class="col-6 px-0 d-flex flex-column justify-content-between">
+              <div class="mark d-flex align-items-center">
+                <i class="mx-1 fa-regular fa-circle-check text-success"></i>
+                <span class="tyre_info_detail">5 Years Warranty</span>
+              </div>
+
+              <div class="tyre_info_img">
+                <img
+                  src="https://cdn.tyreplex.net/uploads/images/tyre_model/original/apollo/amazer-4g-life/img_main.png?v=2385909&tr=w-178,q-78,q-60"
+                />
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="col-md-3">
-          <div class="bg-white p-3 border rounded"></div>
+        <div class="col-md-3 col-sm-6">
+          <div class="row m-2 tyre_info bg-white border rounded">
+            <div class="col-6">
+              <div class="col-md-6">
+                <span>
+                  <img
+                    class="img-fluid"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu-_Ti28v7DEQIQ87nwjmRXxgSnWOND78oGg&s"
+                  />
+                </span>
+              </div>
+
+              <div>
+                <p>AMAZER 4G LIFE</p>
+              </div>
+
+              <div class="text-muted my-2 tyre_info_detail">
+                <span>145/80 R12</span>
+              </div>
+
+              <div class="my-2">
+                <span class="text-white px-1 py-1 rounded shop_info_rating">
+                  <i class="fa-solid fa-star text-warning text-white"></i>
+                  4</span
+                >
+                <span class="text-muted mx-2 tyre_info_detail"
+                  >320 Reviews</span
+                >
+              </div>
+
+              <div class="d-flex align-items-center">
+                <i class="fa-solid fa-indian-rupee-sign"></i>
+                <span class="mx-2">3,135</span>
+              </div>
+
+              <div class="text-success my-1 tyre_info_detail">
+                <span>offer Available</span>
+              </div>
+              <div class="my-2 tyre_info_detail">
+                <span>Tube Type</span>
+              </div>
+            </div>
+
+            <div class="col-6 px-0 d-flex flex-column justify-content-between">
+              <div class="mark d-flex align-items-center">
+                <i class="mx-1 fa-regular fa-circle-check text-success"></i>
+                <span class="tyre_info_detail">5 Years Warranty</span>
+              </div>
+
+              <div class="tyre_info_img">
+                <img
+                  src="https://cdn.tyreplex.net/uploads/images/tyre_model/original/apollo/amazer-4g-life/img_main.png?v=2385909&tr=w-178,q-78,q-60"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="row m-2 tyre_info bg-white border rounded">
+            <div class="col-6">
+              <div class="col-md-6">
+                <span>
+                  <img
+                    class="img-fluid"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu-_Ti28v7DEQIQ87nwjmRXxgSnWOND78oGg&s"
+                  />
+                </span>
+              </div>
+
+              <div>
+                <p>AMAZER 4G LIFE</p>
+              </div>
+
+              <div class="text-muted my-2 tyre_info_detail">
+                <span>145/80 R12</span>
+              </div>
+
+              <div class="my-2">
+                <span class="text-white px-1 py-1 rounded shop_info_rating">
+                  <i class="fa-solid fa-star text-warning text-white"></i>
+                  4</span
+                >
+                <span class="text-muted mx-2 tyre_info_detail"
+                  >320 Reviews</span
+                >
+              </div>
+
+              <div class="d-flex align-items-center">
+                <i class="fa-solid fa-indian-rupee-sign"></i>
+                <span class="mx-2">3,135</span>
+              </div>
+
+              <div class="text-success my-1 tyre_info_detail">
+                <span>offer Available</span>
+              </div>
+              <div class="my-2 tyre_info_detail">
+                <span>Tube Type</span>
+              </div>
+            </div>
+
+            <div class="col-6 px-0 d-flex flex-column justify-content-between">
+              <div class="mark d-flex align-items-center">
+                <i class="mx-1 fa-regular fa-circle-check text-success"></i>
+                <span class="tyre_info_detail">5 Years Warranty</span>
+              </div>
+
+              <div class="tyre_info_img">
+                <img
+                  src="https://cdn.tyreplex.net/uploads/images/tyre_model/original/apollo/amazer-4g-life/img_main.png?v=2385909&tr=w-178,q-78,q-60"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="row m-2 tyre_info bg-white border rounded">
+            <div class="col-6">
+              <div class="col-md-6">
+                <span>
+                  <img
+                    class="img-fluid"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu-_Ti28v7DEQIQ87nwjmRXxgSnWOND78oGg&s"
+                  />
+                </span>
+              </div>
+
+              <div>
+                <p>AMAZER 4G LIFE</p>
+              </div>
+
+              <div class="text-muted my-2 tyre_info_detail">
+                <span>145/80 R12</span>
+              </div>
+
+              <div class="my-2">
+                <span class="text-white px-1 py-1 rounded shop_info_rating">
+                  <i class="fa-solid fa-star text-warning text-white"></i>
+                  4</span
+                >
+                <span class="text-muted mx-2 tyre_info_detail"
+                  >320 Reviews</span
+                >
+              </div>
+
+              <div class="d-flex align-items-center">
+                <i class="fa-solid fa-indian-rupee-sign"></i>
+                <span class="mx-2">3,135</span>
+              </div>
+
+              <div class="text-success my-1 tyre_info_detail">
+                <span>offer Available</span>
+              </div>
+              <div class="my-2 tyre_info_detail">
+                <span>Tube Type</span>
+              </div>
+            </div>
+
+            <div class="col-6 px-0 d-flex flex-column justify-content-between">
+              <div class="mark d-flex align-items-center">
+                <i class="mx-1 fa-regular fa-circle-check text-success"></i>
+                <span class="tyre_info_detail">5 Years Warranty</span>
+              </div>
+
+              <div class="tyre_info_img">
+                <img
+                  src="https://cdn.tyreplex.net/uploads/images/tyre_model/original/apollo/amazer-4g-life/img_main.png?v=2385909&tr=w-178,q-78,q-60"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="row m-2 tyre_info bg-white border rounded">
+            <div class="col-6">
+              <div class="col-md-6">
+                <span>
+                  <img
+                    class="img-fluid"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu-_Ti28v7DEQIQ87nwjmRXxgSnWOND78oGg&s"
+                  />
+                </span>
+              </div>
+
+              <div>
+                <p>AMAZER 4G LIFE</p>
+              </div>
+
+              <div class="text-muted my-2 tyre_info_detail">
+                <span>145/80 R12</span>
+              </div>
+
+              <div class="my-2">
+                <span class="text-white px-1 py-1 rounded shop_info_rating">
+                  <i class="fa-solid fa-star text-warning text-white"></i>
+                  4</span
+                >
+                <span class="text-muted mx-2 tyre_info_detail"
+                  >320 Reviews</span
+                >
+              </div>
+
+              <div class="d-flex align-items-center">
+                <i class="fa-solid fa-indian-rupee-sign"></i>
+                <span class="mx-2">3,135</span>
+              </div>
+
+              <div class="text-success my-1 tyre_info_detail">
+                <span>offer Available</span>
+              </div>
+              <div class="my-2 tyre_info_detail">
+                <span>Tube Type</span>
+              </div>
+            </div>
+
+            <div class="col-6 px-0 d-flex flex-column justify-content-between">
+              <div class="mark d-flex align-items-center">
+                <i class="mx-1 fa-regular fa-circle-check text-success"></i>
+                <span class="tyre_info_detail">5 Years Warranty</span>
+              </div>
+
+              <div class="tyre_info_img">
+                <img
+                  src="https://cdn.tyreplex.net/uploads/images/tyre_model/original/apollo/amazer-4g-life/img_main.png?v=2385909&tr=w-178,q-78,q-60"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="row m-2 tyre_info bg-white border rounded">
+            <div class="col-6">
+              <div class="col-md-6">
+                <span>
+                  <img
+                    class="img-fluid"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu-_Ti28v7DEQIQ87nwjmRXxgSnWOND78oGg&s"
+                  />
+                </span>
+              </div>
+
+              <div>
+                <p>AMAZER 4G LIFE</p>
+              </div>
+
+              <div class="text-muted my-2 tyre_info_detail">
+                <span>145/80 R12</span>
+              </div>
+
+              <div class="my-2">
+                <span class="text-white px-1 py-1 rounded shop_info_rating">
+                  <i class="fa-solid fa-star text-warning text-white"></i>
+                  4</span
+                >
+                <span class="text-muted mx-2 tyre_info_detail"
+                  >320 Reviews</span
+                >
+              </div>
+
+              <div class="d-flex align-items-center">
+                <i class="fa-solid fa-indian-rupee-sign"></i>
+                <span class="mx-2">3,135</span>
+              </div>
+
+              <div class="text-success my-1 tyre_info_detail">
+                <span>offer Available</span>
+              </div>
+              <div class="my-2 tyre_info_detail">
+                <span>Tube Type</span>
+              </div>
+            </div>
+
+            <div class="col-6 px-0 d-flex flex-column justify-content-between">
+              <div class="mark d-flex align-items-center">
+                <i class="mx-1 fa-regular fa-circle-check text-success"></i>
+                <span class="tyre_info_detail">5 Years Warranty</span>
+              </div>
+
+              <div class="tyre_info_img">
+                <img
+                  src="https://cdn.tyreplex.net/uploads/images/tyre_model/original/apollo/amazer-4g-life/img_main.png?v=2385909&tr=w-178,q-78,q-60"
+                />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-
+      <!-- Load more Tyre Details -->
+      <div class="text-center my-2">
+        <button
+          type="button"
+          class="btn btn btn-outline-secondary dropdown-toggle"
+        >
+          View More
+        </button>
+      </div>
+      <div class="my-2">
+        <p class="text-muted text-center">
+          Home / Tyre Dealers / Tyre Dealers Ghaziabad / SHREE HEMKUNT TYRES AND
+          SERVICES
+        </p>
+      </div>
       <!-- Modes of Payment -->
-      <div class="m-3 p-3 border shadow p-3 mb-5 rounded">
+      <div class="p-3 border shadow p-3 mb-5 rounded">
         <!-- Payment Title -->
-        <p>Payment Mode</p>
+        <p class="fw-bold">Payment Mode</p>
         <!-- List of Payment Modes -->
         <div class="row">
-          <ul class="row col-sm-6">
-            <li class="col-sm-6 mb-2 d-flex align-items-center">
+          <ul class="row col-md-6 col-12 mx-1">
+            <li class="col-md-6 col-6 mb-2 px-0 d-flex align-items-center">
               <div class="col-sm-1 text-center">
                 <i class="fa-solid fa-check text-success"></i>
               </div>
               <div class="col-sm-11 px-2">
-                <span class="mb-0 fw-light">Deposit to Account</span>
+                <p class="mb-0 fw-light">Deposit to Account</p>
               </div>
             </li>
-            <li class="col-sm-6 mb-2 d-flex align-items-center">
+            <li class="col-md-6 col-6 mb-2 px-0 d-flex align-items-center">
               <div class="col-sm-1 text-center">
                 <i class="fa-solid fa-check text-success"></i>
               </div>
               <div class="col-sm-11 px-2">
-                <span class="fw-light mb-0">Net Banking</span>
+                <p class="fw-light mb-0">Net Banking</p>
               </div>
             </li>
-            <li class="col-sm-6 mb-2 d-flex align-items-center">
+            <li class="col-md-6 col-6 mb-2 px-0 d-flex align-items-center">
               <div class="col-sm-1 text-center">
                 <i class="fa-solid fa-check text-success"></i>
               </div>
               <div class="col-sm-11 px-2">
-                <span class="fw-light mb-0">Credit Card/Debit Card</span>
+                <p class="fw-light mb-0">Credit Card/Debit Card</p>
               </div>
             </li>
-            <li class="col-sm-6 mb-2 d-flex align-items-center">
+            <li class="col-md-6 col-6 mb-2 px-0 d-flex align-items-center">
               <div class="col-sm-1 text-center">
                 <i class="fa-solid fa-check text-success"></i>
               </div>
               <div class="col-sm-11 px-2">
-                <span class="fw-light mb-0">UPI</span>
+                <p class="fw-light mb-0">UPI</p>
               </div>
             </li>
-            <li class="col-sm-6 mb-2 d-flex align-items-center">
+            <li class="col-md-6 col-6 mb-2 px-0 d-flex align-items-center">
               <div class="col-sm-1 text-center">
                 <i class="fa-solid fa-check text-success"></i>
               </div>
               <div class="col-sm-11 px-2">
-                <span class="fw-light mb-0"
-                  >Wallets(PayTM/PhonePe/Amazo netc.)</span
-                >
+                <p class="fw-light mb-0">Wallets(PayTM/PhonePe/Amazo netc.)</p>
               </div>
             </li>
           </ul>
@@ -483,9 +952,9 @@
       </div>
 
       <!-- User Question -->
-      <div class="mx-3 mt-3 p-4 border shadow rounded askQuestions">
+      <div class="p-4 border shadow rounded askQuestions">
         <div class="row">
-          <div class="col-sm-6">
+          <div class="col-md-6 col-9">
             <h6 class="fw-bold mb-1">Have a question about Tyres?</h6>
             <p class="mt-2 text-muted mb-2">
               Get an answer in 24 hours from our experts.
@@ -501,20 +970,20 @@
             </div>
           </div>
           <div
-            class="col-sm-4 d-flex align-items-center justify-content-sm-end"
+            class="col-md-4 col-3 d-flex align-items-center justify-content-sm-end"
           >
             <img
               src="https://cdn.tyreplex.net/themes/moonlight/images/haveQuestion-bg.png?v=600&tr=q-60"
               class="img-fluid"
               width="70"
-              height="70"
+              height="100"
             />
           </div>
         </div>
       </div>
 
       <!-- Comapany Information, Company Policy  -->
-      <footer class="bg-white mx-3">
+      <footer class="bg-white">
         <div class="row d-flex p-3 justify-content-between">
           <div class="col-md-2 text-center">
             <img
