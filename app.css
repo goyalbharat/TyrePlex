@@ -1,0 +1,49 @@
+.shop_info_rating {
+  font-size: small;
+  background-color: rgb(17, 183, 17);
+}
+.user_reviews {
+  overflow: scroll;
+}
+.user_reviews::-webkit-scrollbar {
+  display: none;
+}
+.user_reviews_info {
+  margin-right: 10px;
+}
+.user_reviews_details {
+  font-size: 0.9rem;
+  overflow: hidden;
+  height: 60px;
+}
+.deals_in_img {
+  width: 80%;
+  height: 50%;
+  text-align: center;
+}
+.deals_in_company {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 50%;
+}
+
+.img-fluid {
+  height: 50px;
+}
+
+.service_details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.askQuestions {
+  background-color: #ffeaaa;
+}
+.askQuestions_input {
+  color: #130f26;
+  border-radius: 21px;
+  box-shadow: 0px 1px 1px #ffca28;
+  border: 1px solid #ffca28;
+}
