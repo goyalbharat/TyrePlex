@@ -31,7 +31,9 @@
 .img-fluid {
   height: 50px;
 }
-
+.menu_items {
+  display: none;
+}
 .service_details {
   display: flex;
   flex-direction: column;
@@ -58,9 +60,18 @@
   right: -40%;
   bottom: -10%;
 }
-@media screen and (max-width: 750px) {
+.filter_by {
+  width: 100%;
+}
+.nav_menu {
+  display: none;
+}
+@media screen and (max-width: 850px) {
   .nav {
     display: none;
+  }
+  .nav_menu {
+    display: block;
   }
 }
 
